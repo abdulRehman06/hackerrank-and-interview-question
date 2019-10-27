@@ -1,0 +1,26 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bable": "node_modules/.bin/babel ./index.js  -o ./asset/bundle.js",
+    "webpack" : "node_modules/.bin/webpack -w",
+    "serve": "webpack-dev-server"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "install": "^0.13.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
