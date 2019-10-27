@@ -1,4 +1,4 @@
 'use strict'
-// import a from './test'
+import a from './testCase'
 
-console.log('value of a ahahhavadn abdul tkaim khani lab lab :'  );
+console.log('value of aabcd :'  , a  );
