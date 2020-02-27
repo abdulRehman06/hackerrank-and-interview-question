@@ -1,3 +1,6 @@
+package JavaInterviewProgram;
+
+
 public class MinFind {
     public  static  void minFind(int[] inArr){
         int length = inArr.length-2;

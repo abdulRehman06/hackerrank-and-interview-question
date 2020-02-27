@@ -1,3 +1,5 @@
+package JavaInterviewProgram;
+
 public class FindStringInString {
 
     public static int subStringIndex(String str, String substr) {

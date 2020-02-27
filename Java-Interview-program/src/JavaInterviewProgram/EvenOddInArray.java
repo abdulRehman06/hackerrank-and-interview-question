@@ -1,3 +1,5 @@
+package JavaInterviewProgram;
+
 public class EvenOddInArray {
 
 

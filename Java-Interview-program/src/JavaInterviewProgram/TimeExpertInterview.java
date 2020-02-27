@@ -1,61 +1,72 @@
+import java.lang.reflect.Array;
 import java.util.LinkedList;
 
-class A {
-    public void printValue() {
-        System.out.println( "CLass_A" );
+class Dog {
+    public String getType() {
+        System.out.println( "NormalDog" );
+        return "NormalDog";
     }
 }
 
-class B extends  A {
-    public void printValue() {
-        System.out.println( "CLass_B" );
+/**
+ * Pet Dog has an extra method dogName()
+ */
+class PetDog extends Dog {
+    public String getType() {
+        System.out.println( "PetDog" );
+        return "PetDog";
+    }
+
+    public String dogName() {
+        System.out.println( "I don't have Name !!" );
+        return "NO Name";
+    }
+}
+
+/**
+ * Police Dog has an extra method secretId()
+ */
+class PoliceDog extends PetDog {
+
+    public String secretId() {
+        System.out.println( " secretId ID" );
+        return "ID";
+    }
+
+    public String getType() {
+        System.out.println( "I am a Police Dog" );
+        return "Police Dog";
     }
 }
 
 public class TimeExpertInterview {
     public static void main(String[] args) {
-    /*    Question _ 1.1
-        B oB = new A();
-        Quet : kia print ho ga
-        //  Ans child class may parrent class ka object initialize nahi kara saktay (error )..?
-//        oB.printValue()
+        Dog obj1 = new Dog();
+         /**
+         *  Object of Pet Dog is created with Dog Reference since
+         *  Upcasting is done automatically for us we don't have to worry about it
+         *
+         */
+        Dog obj2 = new PetDog();
+         /**
+         *  Object of Police Dog is created with Dog Reference since
+         *  Upcasting is done automatically for us we don't have to worry
+         *  about it here even though we are extending PoliceDog with PetDog
+         *  since PetDog is extending Dog Java automatically upcast for us
+         */
+        Dog obj3 = new PoliceDog();
 
-*/
-
-       /*  Question _ 1.2
-        B oB = (A)new A();
-        Quet : kia print ho ga
-        // child class may  parent class ka object initialize nahi kar saktay (error)?
+        //up casting
+        obj1.getType(); //Prints Normal Dog
+        obj2.getType(); //Prints Pet Dog
+        obj3.getType(); //Prints Police Dog
 
 
-       //downcasting
-	  A oB = new B(); // what will print
-      ((B)oB).PrintCLassB(); // CLass_B
-
-
-       /*  Question _ 1.4
-        A oA = new B(); // this will generate compile time error
-        oA.printValue(); // this will call class b fn
-        */
-
-//        oB.printValue()
-//**      @Question==============02
-        LinkedList<Character> ll = new LinkedList<>();
-        ll.add('a' );
-        ll.add( 'b' );
-        ll.add( 'c' );
-        int a = -5;
-        System.out.println( ll  + " " + a);
-        fn(ll, a);
-//        ll = null;
-        System.out.println( ll  + " " + a);
+        //downcasting
+        System.out.println("Downcasting ");
+        ((PoliceDog)obj3).secretId();
 
     }
-    public static  void fn( LinkedList<Character>  ll , int value ){
 
-        ll.remove();
-        System.out.println( ll  + " inside " + value);
-        value = 10;
-    }
 
 }
