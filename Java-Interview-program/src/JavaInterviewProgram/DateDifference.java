@@ -7,6 +7,10 @@ import java.util.Date;
 public class DateDifference {
 
     public static void dateDiff() throws ParseException {
+
+//        SimpleDateFormat sdf = new SimpleDateFormat( "yyyy:MM:dd hh:mm:ss" );
+//        Date d1  = sdf.parse( sdf.format( oCal.getTime())  ) ;
+
         Date oDate = new Date();
 
         Date d1 = null;
