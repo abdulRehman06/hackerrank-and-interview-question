@@ -2,23 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa748b4-d070-49ec-91c2-af5b1053bd52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/BracketMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/FinMatchinWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/LongesRepetedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/CharPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/BracketMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/BracketMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/DateDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/DateDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/FindCharCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/FindCharCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/FindIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/EvenOddInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/EvenOddInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/FindStringInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/FindStringInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,9 +53,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="StringPermutaion" />
+      <recent name="A" />
+      <recent name="abcd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JavaInterviewProgram" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\road\Practice\hackerrenk\Java-Interview-program\src" />
     </key>
@@ -57,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaInterviewProgram.Main" />
       <module name="Interview-program" />
       <extension name="coverage">
@@ -96,7 +118,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FindIndex" />
         <item itemvalue="Application.TimeExpertInterview" />
@@ -118,7 +139,10 @@
       <workItem from="1572548056386" duration="102000" />
       <workItem from="1572548275668" duration="299000" />
       <workItem from="1573391961992" duration="2234000" />
-      <workItem from="1583564801334" duration="458000" />
+      <workItem from="1583564801334" duration="1334000" />
+      <workItem from="1583566179308" duration="718000" />
+      <workItem from="1583571125534" duration="2375000" />
+      <workItem from="1583573765752" duration="35222000" />
     </task>
     <servers />
   </component>
@@ -126,6 +150,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="144" y="34" key="#Project_Structure" timestamp="1583566897254">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="144" y="34" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1583566897254" />
     <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1582731651855">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -134,10 +162,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="534" y="260" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1582371906399" />
-    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583041090691">
+    <state x="479" y="254" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583603517023">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583041090691" />
+    <state x="479" y="254" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1583603517023" />
+    <state x="399" y="87" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1583603436613">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="399" y="87" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.738@0.0.1366.738" timestamp="1583603436613" />
+    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583581246991">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583581246991" />
     <state x="438" y="71" key="#xdebugger.evaluate" timestamp="1583078408258">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -146,54 +182,154 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="113" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582372257367" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1583220687773">
+    <state width="1323" height="252" key="GridCell.Tab.-1.bottom" timestamp="1583600433488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1583220687773">
+    <state width="1323" height="252" key="GridCell.Tab.-1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583600433488" />
+    <state width="1323" height="252" key="GridCell.Tab.-1.center" timestamp="1583600433488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1583220687772">
+    <state width="1323" height="252" key="GridCell.Tab.-1.center/0.0.1366.738@0.0.1366.738" timestamp="1583600433488" />
+    <state width="1323" height="252" key="GridCell.Tab.-1.left" timestamp="1583600433488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583220687772" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1583220687773">
+    <state width="1323" height="252" key="GridCell.Tab.-1.left/0.0.1366.738@0.0.1366.738" timestamp="1583600433488" />
+    <state width="1323" height="252" key="GridCell.Tab.-1.right" timestamp="1583600433488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
-    <state width="1323" height="156" key="GridCell.Tab.1.bottom" timestamp="1583220687774">
+    <state width="1323" height="252" key="GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738" timestamp="1583600433488" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1583650668991">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583220687774" />
-    <state width="1323" height="156" key="GridCell.Tab.1.center" timestamp="1583220687773">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583650668991" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1583650668991">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
-    <state width="1323" height="156" key="GridCell.Tab.1.left" timestamp="1583220687773">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583650668991" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1583650668991">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
-    <state width="1323" height="156" key="GridCell.Tab.1.right" timestamp="1583220687773">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583650668991" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1583650668991">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583220687773" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583650668991" />
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.bottom" timestamp="1583650369088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583650369088" />
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.center" timestamp="1583650369088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583650369088" />
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.left" timestamp="1583650369088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583650369088" />
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.right" timestamp="1583650369088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="1323" height="252" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583650369088" />
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.bottom" timestamp="1583602112475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583602112475" />
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.center" timestamp="1583602112475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1583602112475" />
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.left" timestamp="1583602112475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1583602112475" />
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.right" timestamp="1583602112475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="760" height="224" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1583602112475" />
     <state x="564" y="90" key="RollbackChangesDialog" timestamp="1582372660146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="564" y="90" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1582372660146" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1583565274494">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1583574759221">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583565274494" />
-    <state x="390" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1583565163788">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583574759221" />
+    <state x="390" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1583573770322">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="390" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583565163788" />
+    <state x="390" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583573770322" />
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583072942224">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1583072942224" />
+    <state x="226" y="105" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583650118569">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="226" y="105" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1583650118569" />
+    <state x="29" y="24" width="1310" height="291" key="dock-window-1" timestamp="1583600477945">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="29" y="24" width="1310" height="291" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1583600477945" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-10" timestamp="1583601878527">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-10/0.0.1366.738@0.0.1366.738" timestamp="1583601878527" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-11" timestamp="1583601912363">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-11/0.0.1366.738@0.0.1366.738" timestamp="1583601912363" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-12" timestamp="1583601960339">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-12/0.0.1366.738@0.0.1366.738" timestamp="1583601960339" />
+    <state x="739" y="430" width="405" height="291" key="dock-window-13" timestamp="1583602004952">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="739" y="430" width="405" height="291" key="dock-window-13/0.0.1366.738@0.0.1366.738" timestamp="1583602004952" />
+    <state x="889" y="443" width="405" height="291" key="dock-window-14" timestamp="1583602028115">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="889" y="443" width="405" height="291" key="dock-window-14/0.0.1366.738@0.0.1366.738" timestamp="1583602028115" />
+    <state x="436" y="409" width="776" height="291" key="dock-window-15" timestamp="1583602106803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="436" y="409" width="776" height="291" key="dock-window-15/0.0.1366.738@0.0.1366.738" timestamp="1583602106803" />
+    <state x="290" y="384" width="776" height="291" key="dock-window-16" timestamp="1583644257057">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="290" y="384" width="776" height="291" key="dock-window-16/0.0.1366.738@0.0.1366.738" timestamp="1583644257057" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-2" timestamp="1583600477945">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-2/0.0.1366.738@0.0.1366.738" timestamp="1583600477945" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-3" timestamp="1583600564219">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-3/0.0.1366.738@0.0.1366.738" timestamp="1583600564219" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-4" timestamp="1583600641165">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-4/0.0.1366.738@0.0.1366.738" timestamp="1583600641165" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-5" timestamp="1583600800275">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-5/0.0.1366.738@0.0.1366.738" timestamp="1583600800275" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-6" timestamp="1583600813783">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-6/0.0.1366.738@0.0.1366.738" timestamp="1583600813783" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-7" timestamp="1583601178554">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-7/0.0.1366.738@0.0.1366.738" timestamp="1583601178554" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-8" timestamp="1583601790698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-8/0.0.1366.738@0.0.1366.738" timestamp="1583601790698" />
+    <state x="905" y="206" width="405" height="291" key="dock-window-9" timestamp="1583601864989">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="905" y="206" width="405" height="291" key="dock-window-9/0.0.1366.738@0.0.1366.738" timestamp="1583601864989" />
     <state x="0" y="0" width="606" height="738" key="find.popup" timestamp="1582372588080">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -202,57 +338,31 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1582372259992" />
-    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582790221429">
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583601700868">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1582790221429" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1583601700868" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1583045964452">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583045964452" />
+    <state x="339" y="22" width="672" height="676" key="search.everywhere.popup" timestamp="1583642633111">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="22" width="672" height="676" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583642633111" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>28</line>
+          <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/MurgeSort.java</url>
-          <line>41</line>
+          <line>38</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/FindStringInString.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/FindStringInString.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
@@ -289,11 +399,6 @@
           <line>54</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/Main.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/LinkList.java</url>
           <line>15</line>
@@ -302,7 +407,26 @@
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/JavaInterviewProgram/Main.java</url>
+          <line>6</line>
+          <properties class="JavaInterviewProgram.Main" method="recRev">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="temp1" language="JAVA" />
+        <watch expression="temp2" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Interview_program$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1583644257368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>JavaInterviewProgram.*</FILTER>
+    </SUITE>
   </component>
 </project>

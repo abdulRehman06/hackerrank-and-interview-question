@@ -1,9 +1,6 @@
 package JavaInterviewProgram;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class MurgeSort {
 
@@ -55,54 +52,5 @@ public class MurgeSort {
     }
 
 
-    // murge sort using ArrayList
-  /*  public static List<Integer> sort(List<Integer> inArr) {
-        if (inArr.size() <= 1) {
-            return inArr;
-        } else {
-            List<Integer> temp1 = new ArrayList<>();
-            List<Integer> temp2 = new ArrayList<>();
-            int left = 0;
-            ;
-            int middle = inArr.size() / 2;
-            int right = inArr.size();
-            for (int i = 0; i < middle; i++) {
-                temp1.add( inArr.get( i ) );
-            }
-            for (int i = middle  ; i < right ; i++) {
-                temp2.add( inArr.get( i ) );
-            }
-
-            return murge(sort( temp1 ) , sort( temp2 ));
-        }
-    }
-
-    public static List<Integer> murge(List<Integer> inArrL, List<Integer> inArrR) {
-        int l = 0, r = 0;
-        List<Integer> tempArr = new ArrayList<>();
-        while (l < inArrL.size() && r < inArrR.size()) {
-            if (inArrL.get( l ) <= inArrR.get( r )) {
-                tempArr.add( inArrL.get( l ) );
-                l += 1;
-            } else {
-                tempArr.add( inArrR.get( r ) );
-                r += 1;
-            }
-        }
-        // adding remaining values
-        while (r < inArrR.size()) {
-            tempArr.add( inArrR.get( r ) );
-            r += 1;
-        }
-        while (l < inArrL.size()) {
-            tempArr.add( inArrL.get( l ) );
-            l += 1;
-        }
-
-
-//        System.out.println( "new Arr :" + tempArr );
-
-        return tempArr;
-    } */
 
 }

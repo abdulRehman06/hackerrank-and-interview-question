@@ -1,9 +1,11 @@
 package JavaInterviewProgram;
 
+import java.util.Arrays;
+
 public class EvenOddInArray {
 
 
-    public static void evenOddSegrate(int[] data) {
+    public static int[] evenOddSegrate(int[] data) {
        int left = 0 , right = data.length -1 ;
        while ( right >= left   ){
            if( data[left] %  2 != 0 &&  data[right] % 2 == 0 ){
@@ -20,6 +22,8 @@ public class EvenOddInArray {
 
 
        }
+//        Arrays.stream(data).forEach((valie) -> System.out.print(valie));
+       return   data ;
     }
 
     private static void swappEvenOdd(int []data , int left, int right) {

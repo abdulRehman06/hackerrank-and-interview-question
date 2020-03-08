@@ -8,7 +8,7 @@ public class FindStringInString {
 
         int iMaxCount = 0, tempCount = 0, indexPointer = 0;
         for (int i = 0; i < inStr.length(); i++) {
-            if (inStr.charAt( i ) == inSubStr.charAt( indexPointer )) {
+            if (inStr.charAt(i) == inSubStr.charAt(indexPointer)) {
                 tempCount += 1;
                 indexPointer += 1;
                 if (tempCount >= iMaxCount) {
@@ -29,16 +29,17 @@ public class FindStringInString {
         return iMaxCount;
     }
     // inStr "asacasaan"    inSubStr =  "fasaa"  o/p =  4 match
+    //"asacasaan", "fasaaca"  o/p 4 match
 
     public static int longestSubStringDynamic(String inStr, String inSubStr) {
 
         int iMaxCount = 0, tempCount = 0, indexPointer = 0;
         for (int i = 0; i < inStr.length(); i++) {
-            if (inStr.charAt( i ) != inSubStr.charAt( indexPointer )) {
+            if (inStr.charAt(i) != inSubStr.charAt(indexPointer)) {
                 tempCount = 0;
                 indexPointer = 0;
                 for (int j = 0; j < inSubStr.length(); j++) {
-                    if (inStr.charAt( i ) == inSubStr.charAt( j )) {
+                    if (inStr.charAt(i) == inSubStr.charAt(j)) {
                         indexPointer = j;
                         break;
                     }
@@ -46,20 +47,19 @@ public class FindStringInString {
             }
 
 
-            if (inStr.charAt( i ) == inSubStr.charAt( indexPointer )) {
-                tempCount += 1;
+            if (inStr.charAt(i) == inSubStr.charAt(indexPointer)) {
                 indexPointer += 1;
+                if (indexPointer >= inSubStr.length()) {
+                    i -= tempCount; // if mis match occur between search then go back
+                    tempCount = 0;
+                    indexPointer = 0;
+                }
+                tempCount += 1;
                 if (tempCount >= iMaxCount) {
                     iMaxCount = tempCount;
                 }
-                if (indexPointer >= inSubStr.length()) {
-                    return iMaxCount;
-                }
-            } else if (indexPointer > 0) {
-                i -= indexPointer; // if mis match occur between search then go back
-                tempCount = 0;
-                indexPointer = 0;
             } else {
+                i -= indexPointer; // if mis match occur between search then go back
                 tempCount = 0;
                 indexPointer = 0;
             }
