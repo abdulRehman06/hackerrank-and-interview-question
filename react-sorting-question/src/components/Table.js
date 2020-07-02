@@ -11,9 +11,6 @@ export default class Table extends Component {
     }
 
 
-
-   
-
     compareByName(a, b) {
 
     }
@@ -27,7 +24,7 @@ export default class Table extends Component {
 
 
         sortBy === 'name' ?
-        users.sort((a, b) => {
+        usersJSON.sort((a, b) => {
             var nameA = a.name.toUpperCase(); // ignore upper and lowercase
             var nameB = b.name.toUpperCase(); // ignore upper and lowercase
             if (nameA < nameB) {
@@ -41,7 +38,7 @@ export default class Table extends Component {
             return 0;
           })
         : 
-        users.sort((a, b) => a[sortBy] - b[sortBy])
+        usersJSON.sort((a, b) => a[sortBy] - b[sortBy])
 
 
 
@@ -61,10 +58,10 @@ export default class Table extends Component {
 
                     {/* Rendering data */}
                     {
-                        users
+                        usersJSON
                         &&
                      
-                        users.map((value, index) =>
+                        usersJSON.map((value, index) =>
                             <tr key={index}>
                                 <th>{value.age}</th>
                                 <th>{value.name}</th>

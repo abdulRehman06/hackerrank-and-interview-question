@@ -22,7 +22,7 @@ function minUniqueArr(arr) {
 
     console.log(newArr);
     console.log( 'maxValue' , maxValue);
-    console.log('duplicateCount', duplicateCount);
+    console.log('duplicate Count', duplicateCount);
 
     //finding/inserting missing value  in newArr
     for (let i = 1;  duplicateCount > 0  ; i++) {
@@ -30,7 +30,7 @@ function minUniqueArr(arr) {
         if (newArr.indexOf(i) == -1) { //if value is not present in arr then insert into newArr
             newArr.push(i);
             duplicateCount--;
-            console.log('duplicateCount' , duplicateCount)
+            console.log('duplicateValue' , duplicateCount)
             // console.log("missingValue", i)
             // console.log(newArr);
             // if (duplicateCount < 1) {
@@ -48,7 +48,15 @@ function minUniqueArr(arr) {
 
 }
 
-let arr = [  2, 2 ,2 ];
-// let arr1 = [1, 2, 2, 7, 8 ,8, 12];
+
+
+
+// let arr = [  2, 2 ,2 ];
+// let arr = [1, 2,8 , 2, 7, 8 ,8, 12];
+// console.log('before ', arr)
+// console.log('ans is ', minUniqueArr(arr))
+
+// let arr = [  2, 2 ,2 ];
+let arr = [1, 2,8 , 2, 7, 8 ,8, 12];
 console.log('before ', arr)
 console.log('ans is ', minUniqueArr(arr))

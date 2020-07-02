@@ -1,10 +1,8 @@
 class Polygon{
     constructor(arrInt){
          this.arrInt = arrInt ;
-      
     }
   
-
     perimeter(){
        return  this.arrInt.reduce( (accumulator, currentValue) => accumulator + currentValue )
     

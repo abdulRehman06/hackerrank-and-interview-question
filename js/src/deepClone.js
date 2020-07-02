@@ -1,27 +1,27 @@
 
- 
 
-Object.prototype.deepClone = function (){
+
+Object.prototype.deepClone = function () {
 
     // let newObj = {};
-    let newObj =  (this instanceof Array ) ? [] : {};
+    let newObj = (this instanceof Array) ? [] : {};
     for (const i in this) {
-        if( i == 'deepClone' ) continue ;
-        if (   this[i] &&  typeof this[i] === "object") {
-        //    console.log('i' , i )  
-        newObj[i] =  this[i].deepClone()
+        if (i == 'deepClone') continue;
+        if (this[i] && typeof this[i] === "object") {
+            //    console.log('i' , i )  
+            newObj[i] = this[i].deepClone()
         }
         else {
             newObj[i] = this[i]
         }
     }
 
-    return  newObj 
+    return newObj
 
 }
 // second approch 
- let deepCopy  = function (abc) {
-    let newObj = (abc instanceof Array ) ? [] : {};
+let deepCopy = function (abc) {
+    let newObj = (abc instanceof Array) ? [] : {};
     for (let i in abc) {
         if (i == 'deepCopy') continue;
         if (abc[i] && typeof abc[i] === "object") {
@@ -54,7 +54,27 @@ const a = {
     }
 }
 
-console.log('hello-1' , JSON.stringify(a.deepClone()));
 
-console.log('hello-3' , JSON.stringify(a));
+function deepClone(inObj) {
+    console.log('in value :', inObj)
+    let newObj;
+    for (let i = 0; i < inObj.length; i++) {
+        if (inObj[i] && typeof inObj[i] == 'object')
+            newObj[i] = deepClone(inObj[i]);
+        else
+            newObj[i] = inObj[i];
+
+
+        return newObj;
+    }
+
+}
+
+let b =  deepClone(a)
+console.log('a.margherita.toppings[1]  :' , a.margherita.toppings[1] )
+console.log('b.margherita.toppings[1]  :' , b.margherita.toppings[1] )
+// document.write('hello-1' , JSON.stringify(a.deepClone()));
+
+// console.log('hello-3' , JSON.stringify(a));
+// console.log('hello-3' , a);
 
